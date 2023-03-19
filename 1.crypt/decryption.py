@@ -26,4 +26,4 @@ def walking_by_dirs(dir, password):
 
 
 password = input("введите пароль для дешифровки")
-walking_by_dirs("FOLDER_NAME", password)
+walking_by_dirs("FOLDER_PATH", password)
