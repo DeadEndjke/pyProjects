@@ -4,7 +4,7 @@
 
 # from stegano import lsb
 
-# secret = lsb.hide("img.png", "13Horotu")
+# secret = lsb.hide("img.png", "SECRET_MESSAGE")
 # secret.save("img_secret.png") 
 
 
@@ -15,7 +15,7 @@
 
 # from stegano import exifHeader
 
-# secret = exifHeader.hide("img.png", "img_secret2.png", "73ibunot")
+# secret = exifHeader.hide("img.png", "img_secret2.png", "SECRET_MESSAGE")
 
 # result = exifHeader.reveal("img_secret2.png").decode()
 
